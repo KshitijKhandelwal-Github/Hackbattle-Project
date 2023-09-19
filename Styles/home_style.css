@@ -79,7 +79,12 @@ body{
     background-color: #e76f51da;
     border-radius: 10%;
     transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 .homebutton:hover{
     background-color: #F4A261;
     filter: drop-shadow(0 0 0.5rem rgb(60, 60, 60));

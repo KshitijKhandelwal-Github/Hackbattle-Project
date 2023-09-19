@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url('../Assets/Background1.jpeg');
+}
+.container{
+    height: 100vh;
+    width:100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bar
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top:0;
+    left:0;
+    z-index: 100;
+    background-color: #172c34a9;
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+li{
+    list-style-type: none;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    float: left;
+    align-items: center;
+    margin-left: 20px;
+    height: 100%;
+}
+.logo
+{
+    height: 40px;
+    margin: 0px 15px;
+    border: 0;
+    float: left;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.try
+{
+    display: flex;
+    font-size: 1.2rem;
+    color: white;
+    justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    height: 100%;
+    padding: 1em 0.5em;
+    cursor: pointer;
+}
+.try:hover{
+    background-color: #e76f51;
+}
+.navigate{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+.menu{
+    width: 50%;
+    background-color: rgba(217, 217, 217, 0.334);
+    backdrop-filter: blur(3px);
+    border-radius: 2rem;
+    margin-top: 2%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.homebutton{
+    width: 5.4375rem;
+    height: 5.4375rem;
+    background-color: #e76f51da;
+    border-radius: 10%;
+    transition: all 0.2s ease-in-out;
+}
+.homebutton:hover{
+    background-color: #F4A261;
+    filter: drop-shadow(0 0 0.5rem rgb(60, 60, 60));
+    transform: scale(1.1);
+}
+.r1,.r2,.r3{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5%;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    padding:15%;
+}
