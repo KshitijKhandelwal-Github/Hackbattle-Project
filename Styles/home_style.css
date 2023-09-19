@@ -6,7 +6,6 @@
 }
 body{
     background-image: url(../Assets/Background1.jpeg);
-    background-repeat:;
     margin: 0;
     background-color: rgb(0, 0, 86);
     height:95vh;
@@ -77,12 +76,13 @@ body{
 .homebutton{
     width: 5.4375rem;
     height: 5.4375rem;
-    background-color: #f2f2f2a1;
+    background-color: #e76f51da;
     border-radius: 10%;
     transition: all 0.2s ease-in-out;
 }
 .homebutton:hover{
-    filter: drop-shadow(0 0 0.5rem rgb(98, 98, 98));
+    background-color: #F4A261;
+    filter: drop-shadow(0 0 0.5rem rgb(60, 60, 60));
     transform: scale(1.1);
 }
 .group1,.group2{
