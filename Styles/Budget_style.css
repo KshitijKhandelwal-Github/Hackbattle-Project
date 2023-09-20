@@ -6,7 +6,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(../Assets/Background1.jpeg);
+    background-image: url(../Assets/Background_budget.png);
+    background-size: cover;
 }
 .container{
     width:100%;
@@ -16,7 +17,8 @@ body{
 {
     display: flex;
     position: fixed;
-    width: 98%;
+    width: 100%;
+    background-color: #172c34a9;
     height: 100px;
     top:0;
     left:0;
@@ -43,10 +45,13 @@ li{
     margin-left: 20px;
     height: 100%;
 }
+.temp{
+    margin-right: 30px;
+}
 .logo
 {
-    height: 100px;
-    margin: 0;
+    height: 40px;
+    margin: 0px 15px;
     border: 0;
     float: left;
 }
@@ -56,16 +61,21 @@ a{
 }
 .try
 {
+    width: 10rem;
     display: flex;
     font-size: 1.2rem;
     color: white;
+    border-radius: 100rem;
     justify-content: space-evenly;
     font-family: 'Oswald', sans-serif;
     text-align: right;
     height: 100%;
     padding: 1em 0.5em;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 .try:hover{
+    transform: scale(1.1);
     background-color: #e76f51;
+    font-weight: bold;
 }

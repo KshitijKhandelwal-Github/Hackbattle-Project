@@ -6,7 +6,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: url('../Assets/Background1.jpeg');
+    background: url('../Assets/Background_messreview.png');
+    background-size: cover;
 }
 .container{
     height: 100vh;
@@ -21,11 +22,11 @@ body{
     display: flex;
     position: fixed;
     width: 100%;
+    background-color: #172c34a9;
     height: 100px;
     top:0;
     left:0;
     z-index: 100;
-    background-color: #172c34a9;
 }
 .ul{
     display: flex;
@@ -48,6 +49,9 @@ li{
     margin-left: 20px;
     height: 100%;
 }
+.temp{
+    margin-right: 30px;
+}
 .logo
 {
     height: 40px;
@@ -61,18 +65,23 @@ a{
 }
 .try
 {
+    width: 10rem;
     display: flex;
     font-size: 1.2rem;
     color: white;
+    border-radius: 100rem;
     justify-content: space-evenly;
     font-family: 'Oswald', sans-serif;
     text-align: right;
     height: 100%;
     padding: 1em 0.5em;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 .try:hover{
+    transform: scale(1.1);
     background-color: #e76f51;
+    font-weight: bold;
 }
 .navigate{
     width: 100%;
@@ -85,7 +94,8 @@ a{
 }
 .menu{
     width: 50%;
-    background-color: rgba(217, 217, 217, 0.334);
+    background-color: rgba(217, 217, 217, 0.111);
+    border: 1px solid #f2f2f239;
     backdrop-filter: blur(3px);
     border-radius: 2rem;
     margin-top: 2%;
@@ -98,12 +108,12 @@ a{
 .homebutton{
     width: 5.4375rem;
     height: 5.4375rem;
-    background-color: #e76f51da;
+    background-color: #e76f51;
     border-radius: 10%;
     transition: all 0.2s ease-in-out;
 }
 .homebutton:hover{
-    background-color: #F4A261;
+    background-color: #373636;
     filter: drop-shadow(0 0 0.5rem rgb(60, 60, 60));
     transform: scale(1.1);
 }
